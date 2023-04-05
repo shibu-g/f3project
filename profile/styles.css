@@ -1,1 +1,50 @@
 /* Write your styles here */
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 6%;
+}
+nav{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+    font-weight: 400;
+    font-size: 24px
+}
+nav .right{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+    align-items: center;
+}
+input{
+    height: 72px;
+    margin-bottom: 15px;
+    width: 90%;
+    font-size: 24px;
+    padding-left: 10px;
+}
+button{
+    height: 56px;
+    width: 208px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+.profiletext{
+    margin-bottom: 15px;
+    font-size: 64px;
+    margin-left: 35%;
+    font-weight: 700;
+}
