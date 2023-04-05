@@ -91,5 +91,5 @@ function renderItems(item) {
   document.querySelector("#pay-btn").addEventListener("click",()=>{
     localStorage.setItem("cart", JSON.stringify([]))
     alert("Pay for your product to Complete your Purchase")
-    window.location.href="../razorpay/index.html"
+    window.location.href="https://shibu-g.github.io/f3project/razorpay/index.html"
   })
