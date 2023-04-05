@@ -53,7 +53,7 @@ function signup(e) {
                 localStorage.setItem("user", JSON.stringify(user));
                 console.log(user);
                 alert("signup successful");
-            window.location.href="/login/Signin.html";
+            window.location.href="https://shibu-g.github.io/f3project/login/Signin.html";
             
         }
     }
