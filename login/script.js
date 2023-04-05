@@ -16,7 +16,7 @@ function checkCred(e) {
             console.log("hello");
             let currentUser = valid[i];
             localStorage.setItem("currentUser", JSON.stringify(currentUser));
-            window.location.href = "../shop/index.html";
+            window.location.href = "https://shibu-g.github.io/f3project/shop/index.html";
             return;
         }
     }
